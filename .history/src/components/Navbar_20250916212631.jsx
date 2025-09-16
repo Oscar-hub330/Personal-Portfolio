@@ -82,7 +82,7 @@ export default function Navbar() {
         <Toolbar className="flex justify-between py-3 px-4 md:px-6">
           {/* Logo/Brand with Icon */}
           <Link to="/" className="flex items-center no-underline">
-            
+            <WorkIcon sx={gradientStyle} className="mr-2" />
             <Typography 
               variant="h6" 
               sx={gradientStyle}
