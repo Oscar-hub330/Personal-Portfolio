@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonts (add to index.html if offline) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+:root{
+  --accent1: #00f7ff; /* cyan */
+  --accent2: #6a00f4; /* purple */
+  --bg: #0b0b0d;
+}
+
+html,body,#root { height: 100%; }
+
+body{
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: linear-gradient(180deg,#050507 0%, #0b0b0d 100%);
+  color: #e6eef8;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* subtle glass card */
+.glass {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.04);
+  backdrop-filter: blur(6px);
+}
+
+/* typing cursor style used by react-type-animation wrapper */
+.type-cursor {
+  display: inline-block;
+  margin-left: 6px;
+  width: 2px;
+  height: 1.1em;
+  background: var(--accent1);
+  animation: blink 1s steps(2) infinite;
+}
+@keyframes blink { 50%{ opacity: 0 } }
+
+/* simple fadeIn animation utility */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(18px);}
+  to { opacity: 1; transform: translateY(0);}
+}
+.fadeInUp { animation: fadeInUp .7s ease both; }
