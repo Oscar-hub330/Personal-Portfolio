@@ -190,7 +190,7 @@ export default function About() {
                   <Grid item xs={6}>
                     <Box className="p-2">
                       <Typography variant="h4" className="text-purple-400 font-bold">
-                        4+
+                        5+
                       </Typography>
                       <Typography variant="body2" className="text-gray-400">
                         Projects

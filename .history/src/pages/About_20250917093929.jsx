@@ -170,7 +170,7 @@ export default function About() {
                   <Grid item xs={6}>
                     <Box className="p-2">
                       <Typography variant="h4" className="text-purple-400 font-bold">
-                        6+
+                        +
                       </Typography>
                       <Typography variant="body2" className="text-gray-400">
                         Technologies
@@ -180,7 +180,7 @@ export default function About() {
                   <Grid item xs={6}>
                     <Box className="p-2">
                       <Typography variant="h4" className="text-cyan-400 font-bold">
-                        3+
+                        4+
                       </Typography>
                       <Typography variant="body2" className="text-gray-400">
                         Certifications
@@ -190,7 +190,7 @@ export default function About() {
                   <Grid item xs={6}>
                     <Box className="p-2">
                       <Typography variant="h4" className="text-purple-400 font-bold">
-                        4+
+                        15+
                       </Typography>
                       <Typography variant="body2" className="text-gray-400">
                         Projects
