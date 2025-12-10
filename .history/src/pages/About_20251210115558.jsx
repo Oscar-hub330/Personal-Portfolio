@@ -347,7 +347,7 @@ export default function About() {
               <Grid item xs={12} md={6}>
                 <Card
                   sx={{ ...gradientBorderStyle, height: "100%" }}
-                  className="bg-[#06b6d4] shadow-xl"
+                  className="bg-[#0f172a] shadow-xl"
                 >
                   <CardContent sx={{ p: { xs: 3, md: 5 } }}>
                     <Typography

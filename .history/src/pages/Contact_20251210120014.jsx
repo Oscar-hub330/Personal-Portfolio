@@ -28,7 +28,9 @@ export default function Contact() {
 
         <aside className="glass rounded-xl p-6">
           <h3 className="font-semibold">Contact Info</h3>
-          <p className="text-gray-300 mt-2">Email: <a className="text-cyan-300" href="mailto:oscar.madalane@example.com">oscar.madalane@example.com</a></p>
+          <p className="text-gray-300 mt-2">Email: <a className="text-cyan-300" href="mailto:madalaneoscar50@gmail.com">madalaneoscar50@gmail.com</a></p>
+          <p className="text-gray-300 mt-2">Phone: <a className="text-cyan-300" href="tel:0728968717">072 896 8717</a></p>
+          <p className="text-gray-300 mt-2">LinkedIn: <a className="text-cyan-300" href="https://www.linkedin.com/in/oscar-madalane-123456789/">Oscar Madalane</a></p>
           <p className="text-gray-300 mt-2">Location: South Africa</p>
           <p className="text-gray-300 mt-4">Open to remote and hybrid opportunities. Available for interviews.</p>
         </aside>

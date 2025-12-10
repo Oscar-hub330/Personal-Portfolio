@@ -82,7 +82,7 @@ export default function Contact() {
             South Africa
           </p>
 
-          <p className="text-gray-300 mt-4">
+          
           </p>
         </aside>
       </div>

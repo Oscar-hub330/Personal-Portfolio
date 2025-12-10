@@ -83,6 +83,7 @@ export default function Contact() {
           </p>
 
           <p className="text-gray-300 mt-4">
+            Open to remote and hybrid opportunities. Available for interviews.
           </p>
         </aside>
       </div>
