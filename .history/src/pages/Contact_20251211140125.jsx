@@ -43,7 +43,7 @@ export default function Contact() {
             onChange={onChange}
             rows={6}
             placeholder="Message"
-            className="w-full p-3 rounded bg-transparent border border-cyan-400 text-white"
+            className="w-full p-3 rounded bg-transparent border border-cyan-500 text-white"
           />
           <button
             type="submit"

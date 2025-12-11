@@ -28,14 +28,14 @@ export default function Contact() {
             value={form.name}
             onChange={onChange}
             placeholder="Your name"
-            className="w-full p-3 rounded bg-transparent border border-cyan-400 text-white"
+            className="w-full p-3 rounded bg-transparent border border-gray-700 text-white"
           />
           <input
             name="email"
             value={form.email}
             onChange={onChange}
             placeholder="Your email"
-            className="w-full p-3 rounded bg-transparent border border-cyan-400 text-white"
+            className="w-full p-3 rounded bg-transparent border border-gray-700 text-white"
           />
           <textarea
             name="message"
@@ -43,11 +43,11 @@ export default function Contact() {
             onChange={onChange}
             rows={6}
             placeholder="Message"
-            className="w-full p-3 rounded bg-transparent border border-cyan-400 text-white"
+            className="w-full p-3 rounded bg-transparent border border-gray-700 text-white"
           />
           <button
             type="submit"
-            className="px-5 py-2 bg-gradient-to-r from-cyan-400 to-azure-400 rounded font-semibold"
+            className="px-5 py-2 bg-gradient-to-r from-cyan-400 to-azure-00 rounded font-semibold"
           >
             Send Message
           </button>
